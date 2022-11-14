@@ -1,0 +1,24 @@
+Starting Selenium Grid
+[jenkins] $ /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /var/cache/jenkins/war/WEB-INF/lib/remoting-3044.vb_940a_a_e4f72e.jar:/var/lib/jenkins/plugins/selenium/WEB-INF/lib/selenium-server-standalone-3.141.59.jar:/var/lib/jenkins/plugins/selenium/WEB-INF/lib/htmlunit-driver-standalone-2.33.3.jar hudson.remoting.Launcher -connectTo localhost:35969
+Starting Selenium Grid
+channel started
+Nov 14, 2022 12:15:27 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid hub starting with log level INFO
+Nov 14, 2022 12:15:27 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub preparing to start on port 4444
+2022-11-14 12:15:29.637:INFO::pool-1-thread-1 for channel id=0: Logging initialized @12912ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2022-11-14 12:15:29.846:INFO:osjs.Server:pool-1-thread-1 for channel id=0: jetty-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 11.0.17+8-post-Ubuntu-1ubuntu222.04
+2022-11-14 12:15:29.940:INFO:osjs.session:pool-1-thread-1 for channel id=0: DefaultSessionIdManager workerName=node0
+2022-11-14 12:15:29.950:INFO:osjs.session:pool-1-thread-1 for channel id=0: No SessionScavenger set, using defaults
+2022-11-14 12:15:29.952:INFO:osjs.session:pool-1-thread-1 for channel id=0: node0 Scavenging every 600000ms
+2022-11-14 12:15:29.977:INFO:osjsh.ContextHandler:pool-1-thread-1 for channel id=0: Started o.s.j.s.ServletContextHandler@7792a0e9{/,null,AVAILABLE}
+2022-11-14 12:15:30.008:INFO:osjs.AbstractConnector:pool-1-thread-1 for channel id=0: Started ServerConnector@7363e39c{HTTP/1.1,[http/1.1]}{ec2-52-66-241-251.ap-south-1.compute.amazonaws.com:4444}
+2022-11-14 12:15:30.010:INFO:osjs.Server:pool-1-thread-1 for channel id=0: Started @13285ms
+Nov 14, 2022 12:15:30 PM org.openqa.grid.web.Hub start
+INFO: Selenium Grid hub is up and running
+Nov 14, 2022 12:15:30 PM org.openqa.grid.web.Hub start
+INFO: Nodes should register to http://ec2-52-66-241-251.ap-south-1.compute.amazonaws.com:4444/grid/register/
+Nov 14, 2022 12:15:30 PM org.openqa.grid.web.Hub start
+INFO: Clients should connect to http://ec2-52-66-241-251.ap-south-1.compute.amazonaws.com:4444/wd/hub
+Nov 14, 2022 12:15:30 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub started on port 4444 with args: -maxSession 5 -timeout 300 -browserTimeout 0 -host ec2-52-66-241-251.ap-south-1.compute.amazonaws.com
